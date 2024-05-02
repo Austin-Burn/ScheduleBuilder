@@ -32,7 +32,7 @@ public class EventService {
 
     public Event getEvent(Integer id) { 
         for(int i=0; i < eventList.size(); i++) {
-            if(eventList.get(i).getId() == id) {
+            if(eventList.get(i).getId().equals(id)) {
                 return eventList.get(i);
             }
         }
