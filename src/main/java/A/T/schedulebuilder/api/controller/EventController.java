@@ -1,5 +1,7 @@
 package A.T.schedulebuilder.api.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -18,9 +20,14 @@ public class EventController {
         this.eventService = eventService;
     }
 
-    @GetMapping("/")
+    @GetMapping("/events")
     public Event getEvent(@RequestParam Integer id){
         return eventService.getEvent(id);
+    
+    }
+    @GetMapping("/events")
+    public List<Event> getEvents(){
+       return eventService.getEvents();
     }
 
 }

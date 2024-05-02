@@ -30,13 +30,17 @@ public class EventService {
         eventList.add(event2);
     }
 
-    public Event getEvent(Integer id) {
+    public Event getEvent(Integer id) { 
         for(int i=0; i < eventList.size(); i++) {
             if(eventList.get(i).getId() == id) {
                 return eventList.get(i);
             }
         }
         return null;
+    }
+
+    public List<Event> getEvents() {
+        return eventList;
     }
 
 
