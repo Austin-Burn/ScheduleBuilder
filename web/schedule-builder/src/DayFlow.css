@@ -1,0 +1,32 @@
+.dayContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f6f7;
+}
+
+.start {
+    /* border-top: 0.5svh #f5f6f7;
+    border-style: solid; */
+}
+
+.hourunit {
+    background-color: white;
+    height: fit-content;
+    margin: 2px;
+}
+
+.timeunit {
+    /* border-left: 0.5svh #f5f6f7;
+    border-right: 0.5svh #f5f6f7;
+    border-top: 0.5svh white;
+    border-bottom: 0.5svh white;
+    border-style: solid; */
+    background-color: white;
+    height: 1svh;
+    /* border-radius: 0; */
+}
+
+.end {
+    /* border-bottom: 0.5svh #f5f6f7;
+    border-style: solid; */
+}

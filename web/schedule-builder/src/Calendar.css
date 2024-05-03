@@ -1,0 +1,27 @@
+Header {
+    color: #7e8ba6;
+}
+
+.calendarContainer {
+    background-color: white;
+    border-radius: 3%;
+    padding: 1dvi;
+}
+
+.weekToggleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.week {
+    display: flex;
+    padding: 10px;
+    gap: 0px;
+    flex-direction: row;
+}
+
+.day {
+    flex: 1;
+    width: 10dvi;
+}
